@@ -6,7 +6,7 @@ The preference is for end to end automation with little human intervention.
 
 ```mermaid
 graph TD;
-    A-->B;
+    User requests a planner board-->B;
     A-->C;
     B-->D;
     C-->D;
