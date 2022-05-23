@@ -12,11 +12,15 @@ graph TD;
     D-->E;
 ```
 
-A: User request planner Board
-B: Power Automate Form gathers details
-C: Technician's approval is sought for approval 
-D: Microsoft Graph API is used to complete the task of creating planner board
-E: End user is notified
+**A**: User request planner Board
+
+**B**: Power Automate Form gathers details
+
+**C**: Technician's approval is sought for approval 
+
+**D**: Microsoft Graph API is used to complete the task of creating planner board
+
+**E**: End user is notified
 
 
 This Script sends an email when the date matches todays date
