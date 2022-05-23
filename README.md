@@ -1,4 +1,17 @@
-# PowerShell-Automation
+# Microsoft Automation
+
+This repository is for Automation of typical work tasks. 
+
+The preference is for end to end automation with little human intervention.
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
 This Script sends an email when the date matches todays date
 Needs to Daily run with task scheduler in Windows
 
