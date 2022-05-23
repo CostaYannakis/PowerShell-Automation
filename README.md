@@ -6,11 +6,18 @@ The preference is for end to end automation with little human intervention.
 
 ```mermaid
 graph TD;
-    User requests a planner board-->B;
-    A-->C;
-    B-->D;
+    A-->B;
+    B-->C;
     C-->D;
+    D-->E;
 ```
+
+A: User request planner Board
+B: Power Automate Form gathers details
+C: Technician's approval is sought for approval 
+D: Microsoft Graph API is used to complete the task of creating planner board
+E: End user is notified
+
 
 This Script sends an email when the date matches todays date
 Needs to Daily run with task scheduler in Windows
