@@ -1,4 +1,19 @@
-# Microsoft Automation
+# A Blueprint for END to END automation for Support Staff in a Microsoft Environment
+
+**What is Automation**
+
+In this context Automation is the process of taking manual tasks, clearly defining the process logically and enabling a system to take on the task. The benefits of this can be:
+
+Reduced Human Errors
+Decreased Work Hours
+Increase in overall producitivity
+
+**How and through what mechanisms is Automation achieved?**
+
+This can be achieved through different languages such as Powershell, Python and GUI based automation systems like PowerAutomate. APIs or SDKs can be utilized for third party systems.
+
+
+
 
 This repository is for Automation of typical work tasks. 
 
